@@ -1,0 +1,33 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgba(169, 169, 169, 1.0);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+input {
+    width: 500px;
+    height: 100px;
+}
+
+.radio {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+
+.tecnico {
+    width: 37%;
+    height: auto;
+}
+
+section {
+    padding: 10px;
+    background-color: rgba(169, 169, 169, 1.0);
+}

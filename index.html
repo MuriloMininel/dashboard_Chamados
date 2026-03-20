@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Abertura Chamados</title>
+    
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>ABERTURA DE CHAMADO</h1>
+        <h2>Faça a abertura de seus chamados abaixo</h2>
+    </header>
+    <br>
+    
+    <section>
+        <form>
+            <label for="tecnico">Nome do Técnico</label><br>
+            <input type="text" id="tecnico" name="tecnico_nome" class="tecnico" placeholder="Digite seu nome aqui"><br><br>
+        
+            <label>Descreva o problema abaixo</label><br>
+            <input type="text" id="problema" name="descricao_problema" placeholder="Descreva o problema"><br><br>
+
+            <label>Prioridade:</label><br><br>
+            <input type="radio" id="prioridade_alta" name="Prioridade" class="radio" value="Alta">
+            <label for="prioridade_alta" class="radio">Alta</label><br><br>
+
+            <input type="radio" id="prioridade_media" name="Prioridade" class="radio" value="Media">
+            <label for="prioridade_media" class="radio">Media</label><br><br>
+
+            <input type="radio" id="prioridade_baixa" name="Prioridade" class="radio" value="Baixa">
+            <label for="prioridade_baixa" class="radio">Baixa</label><br><br>
+            
+                       
+
+        </form>
+        <button>Enviar</button>
+    </section>
 </body>
 </html>
